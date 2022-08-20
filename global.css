@@ -1,0 +1,79 @@
+/*Configuração geral da página*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+/*Configuração do Header*/
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.3125rem;
+}
+
+
+/*Configuração do Section*/
+#conteiner-login {
+    background-color:  rgba(131, 143, 173, 0.49);
+    text-align: center;
+    justify-content: center;
+    max-width: 25rem;
+    min-width: 25rem;
+    margin: 0 auto;
+    margin-top: 13rem;
+    border-radius: 1.25rem;
+}
+
+label {
+    display: inline;
+    width: 4.375rem;
+}
+
+input {
+    font-size: 1.05rem;
+    border-radius: 0.3125rem;
+    padding: 5px;
+    margin-bottom: 1.05rem;
+    border: 0 solid #cecece;
+}
+
+input[type=submit] {
+    width: 8.125rem;
+    height: 2.1875rem;
+    background-color: #474c64;
+    color: white;
+    margin-right: 20px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #cecece;
+    font-weight: bolder;
+    color: #474c64;
+    cursor:pointer;
+}
+
+input[type=reset]{
+    width: 8.125rem;
+    height: 2.1875rem;
+    color: white;
+    background-color: rgb(8, 101, 138);
+
+}
+
+input[type=reset]:hover{
+    background-color: #cecece;
+    font-weight: bolder;
+    color:  rgb(8, 101, 138);
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
+}
